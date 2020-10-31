@@ -19,6 +19,6 @@ document.getElementById("plus-button").innerHTML = num;
 
 //画像配列
 img = new Array();
-img[0] = "map001.jpg";
-img[1] = "map002.jpg";
-img[2] = "map003.jpg";
+img[0] = "map001.jpeg";
+img[1] = "map002.jpeg";
+img[2] = "map003.jpeg";
