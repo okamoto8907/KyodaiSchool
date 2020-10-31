@@ -4,7 +4,21 @@
     <meta charset="utf-8"><!-- 文字化け防止 -->
     <link rel="stylesheet" type="text/css" href="kyotodaiSchool.css">
 </head><!-- 裏設定エリアの終了 -->
- 
+
+<script>
+//マウスオーバー時の処理
+function mouseOn(){
+  var obj = document.getElementById("img1");
+  obj.src = “map002.jpeg”;
+}    
+
+//マウスアウト時の処理
+function mouseOff(){
+  var obj = document.getElementById("img1");
+  obj.src = "map001.jpeg";
+}
+</script>
+    
 <body><!-- 画面に表示されるエリアの開始 -->
     <h1>
         <div id="logo" class="resizeimage"><img src="logo.jpeg" alt="京大塾ロゴ" title="ロゴ"></div>
@@ -17,7 +31,7 @@
     <p>　　・問合せ先:xxx@gmail.com</p>    
     <p>comming soon</p>
     
-    <div id="map001" class="resizeimage"><img src="map001.jpeg" alt="マップ" title="マップ"></div>
+    <div id="map001" class="resizeimage"><img src="map001.jpeg" onmouseover="mouseOn();" onmouseout="mouseOff();" alt="マップ" title="マップ"></div>
     
     
     <h1>★義人語録★〜謙虚な心を持つ〜人からの言葉や物事をあるがままに素直に受け入れる事は、自身の成長につながる</h1>
