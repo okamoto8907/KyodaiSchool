@@ -23,6 +23,18 @@ img[0] = "map001.jpeg";
 img[1] = "map002.jpeg";
 img[2] = "map003.jpeg";
 
+// id 属性が、"aaa" であるエレメントを取得
+var element = document.getElementById("aaa");
+
+// WheelEvent に対応している
+if(window.WheelEvent){
+
+// ホイールを操作すると実行されるイベント
+	element.addEventListener("wheel" , function (e){
+			alert("ホイールを操作した");
+		});
+	}
+
 
 
 // ハンバーガメニュー
