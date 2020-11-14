@@ -50,7 +50,7 @@ header {
 }
 
 /*ハンバーガメニュー*/
-#hamburger {
+#hamburger{
     width: 40px;
     height: 20px;
     position: absolute;
@@ -63,7 +63,7 @@ header {
 }
 
 /*ハンバーガメニュー　装飾*/ 
-.inner_line {
+.inner_line{
     display: block;
     width: 25px;
     height: 3px;
@@ -75,13 +75,13 @@ header {
 }
 
 /*ハンバーガメニュー　位置*/ 
-#line1 {
+#line1{
   top: 0;
 }
-#line2 {
+#line2{
   top: 10px;
 }
-#line3 {
+#line3{
   top: 20px;
 }
 
@@ -92,15 +92,15 @@ header {
 .line_1,.line_2,.line_3{
   background: #0000000;
 }
-.line_1 {
+.line_1{
 　/*-45度回転させる*/
   transform: rotate(-45deg);
   top: 0;
 }
-.line_2 {
+.line_2{
   opacity: 0;
 }
-.line_3 {
+.line_3{
   /*45度回転させる*/
   transform: rotate(45deg);
   bottom: 0;
