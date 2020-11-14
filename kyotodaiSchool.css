@@ -35,7 +35,7 @@ header {
 }
 #nav ul{
   padding-top: 10px;
-  left: 10%;
+  padding-left: 10px;
 }
 #nav ul li{
   list-style-type: none;
