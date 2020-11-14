@@ -24,7 +24,7 @@ header {
   
 　/*ナビメニューを左に隠した状態になる*/
   
-  left: 40%;
+  left: -40%;
   width: 40%;
   height: 100vh;
   background: #C0C0C0C;
@@ -38,7 +38,7 @@ header {
 }
 #nav ul li{
   list-style-type: none;
-  font-size: 20px;
+  font-size: 16px;
 }
 #nav a{
   display: block;
