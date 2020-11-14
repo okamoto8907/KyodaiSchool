@@ -94,7 +94,7 @@ header {
 }
 .line_1{
 　/*-45度回転させる*/
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
   top: 0;
 }
 .line_2{
