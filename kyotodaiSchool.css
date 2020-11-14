@@ -24,7 +24,7 @@ header {
   
 　/*ナビメニューを左に隠した状態になる*/
   
-  left: -40%;
+  left: 40%;
   width: 40%;
   height: 100vh;
   background: #fffffff;
