@@ -19,18 +19,12 @@ header {
 
 /*ナビメニュー*/
 #nav{
-  position: relative;
+  position: absolute;
   top: 0%;
-  
-　/*ナビメニューを左に隠した状態になる*/
-  
-  right: 40%;
+  lefgt: -40%;
   width: 40%;
   height: 100vh;
   background: #C0C0C0C;
-　
-  /*０.7秒かけてナビメニューがスライドする*/
-  
   transition: .7s;
 }
 #nav ul{
