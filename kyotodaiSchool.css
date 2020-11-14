@@ -1,17 +1,6 @@
 #logo.resizeimage img { width: 25%; }
 #kyotodaiSchool.resizeimage img { width: 100%; }
 
-img.logo {
-  right: 10%;  
-}
-
-img.kyotodaiSchool {
-  top: 20%;  
-}
-
-
-
-
 * {
   margin: 0;
   padding: 0;
