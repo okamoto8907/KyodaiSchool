@@ -34,7 +34,7 @@ header {
   transition: .7s;
 }
 #nav ul{
-  padding-top: 80px;
+  padding-top: 0px;
 }
 #nav ul li{
   list-style-type: none;
