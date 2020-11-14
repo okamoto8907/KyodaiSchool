@@ -19,7 +19,7 @@ header {
 
 /*ナビメニュー*/
 #nav{
-  position: absolute;
+  position: relative;
   top: 0%;
   
 　/*ナビメニューを左に隠した状態になる*/
