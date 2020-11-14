@@ -27,7 +27,7 @@ header {
   left: -40%;
   width: 40%;
   height: 100vh;
-  background: #ffffff;
+  background: #fffffff;
 　
   /*０.7秒かけてナビメニューがスライドする*/
   
@@ -73,7 +73,7 @@ header {
   left: 0;
   width: 50px;
   height: 3px;
-  background-color: #ffffff;
+  background-color: #0000000;
   transition: 1s;
   border-radius: 4px;
 }
