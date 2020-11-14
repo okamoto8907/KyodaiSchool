@@ -21,12 +21,16 @@ header {
 #nav{
   position: absolute;
 　top: 0;
+  
 　/*ナビメニューを左に隠した状態になる*/
+  
   left: -40%;
   width: 40%;
   height: 100vh;
   background: #ffffff;
-　/*０.7秒かけてナビメニューがスライドする*/
+　
+  /*０.7秒かけてナビメニューがスライドする*/
+  
   transition: .7s;
 }
 #nav ul{
