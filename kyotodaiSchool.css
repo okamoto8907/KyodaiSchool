@@ -20,7 +20,7 @@ header {
 /*ナビメニュー*/
 #nav{
   position: absolute;
-  top: 0;
+  top: %;
   
 　/*ナビメニューを左に隠した状態になる*/
   
@@ -34,7 +34,7 @@ header {
   transition: .7s;
 }
 #nav ul{
-  padding-top: 5px;
+  padding-top: 10px;
 }
 #nav ul li{
   list-style-type: none;
@@ -59,8 +59,8 @@ header {
     width: 40px;
     height: 30px;
     position: absolute;
-    top: 25px;
-    left: 50px;
+    top: 0px;
+    left: 0px;
     cursor: pointer;
     display: block;
     -webkit-transition: 1.5s;
