@@ -58,8 +58,8 @@ header {
     left: 5px;
     cursor: pointer;
     display: block;
-    -webkit-transition: 1.5s;
     transition: 1.5s;
+    border-radius: 4px;
 }
 
 /*ハンバーガメニュー　装飾*/ 
