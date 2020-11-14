@@ -20,7 +20,7 @@ header {
 /*ナビメニュー*/
 #nav{
   position: absolute;
-　top: 0;
+  top: 0;
   
 　/*ナビメニューを左に隠した状態になる*/
   
@@ -94,7 +94,7 @@ header {
   transform: translateX(100%);
 }
 .line_1,.line_2,.line_3{
-  background: #000000;
+  background: #0000000;
 }
 .line_1 {
 　/*-45度回転させる*/
