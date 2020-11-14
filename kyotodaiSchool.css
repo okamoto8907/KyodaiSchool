@@ -53,7 +53,7 @@ header {
 #hamburger{
     width: 40px;
     height: 20px;
-    position: absolute;
+    position: fixed;
     top: 5px;
     left: 5px;
     cursor: pointer;
