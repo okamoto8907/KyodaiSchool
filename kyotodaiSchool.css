@@ -20,7 +20,7 @@ header {
 /*ナビメニュー*/
 #nav{
   position: absolute;
-  top: %;
+  top: 0%;
   
 　/*ナビメニューを左に隠した状態になる*/
   
@@ -35,6 +35,7 @@ header {
 }
 #nav ul{
   padding-top: 10px;
+  left 5%
 }
 #nav ul li{
   list-style-type: none;
