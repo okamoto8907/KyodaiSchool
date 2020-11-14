@@ -35,7 +35,7 @@ header {
 }
 #nav ul{
   padding-top: 10px;
-  left 5%
+  left 10%
 }
 #nav ul li{
   list-style-type: none;
@@ -60,8 +60,8 @@ header {
     width: 40px;
     height: 20px;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 5px;
+    left: 5px;
     cursor: pointer;
     display: block;
     -webkit-transition: 1.5s;
@@ -71,7 +71,7 @@ header {
 /*ハンバーガメニュー　装飾*/ 
 .inner_line {
     display: block;
-    width: 40px;
+    width: 25px;
     height: 3px;
     background: #636363;
     -webkit-transition: 1.5s;
