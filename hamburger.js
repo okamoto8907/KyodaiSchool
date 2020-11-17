@@ -5,6 +5,6 @@ function hamburger() {
   document.getElementById('line3').classList.toggle('line_3');
   document.getElementById('nav').classList.toggle('in');
 }
-document.getElementById('hamburger').addEventListener('click' , function () {
+document.getElementById('hamburger').addEventListener('click',function(){
   hamburger();
 } );
