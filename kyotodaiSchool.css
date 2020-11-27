@@ -89,7 +89,7 @@ header {
 
 /*ハンバーガメニュー　動き*/ 
 .in{
-  transform: translateX(230%);
+  transform: translateX(200%);
 }
 .line_1,.line_2,.line_3{
   background: #000000;
