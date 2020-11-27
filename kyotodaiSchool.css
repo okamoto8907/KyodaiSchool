@@ -61,6 +61,8 @@ header {
     cursor: pointer;
     display: block;
     transition: 0.7s;
+    z-index:3
+
 }
 
 /*ハンバーガメニュー　装飾*/ 
