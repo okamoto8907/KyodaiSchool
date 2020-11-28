@@ -36,6 +36,17 @@ else if(flag%30 == 8){
 else if(flag%30 == 9){
     document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜まず自分を信じられるか〜人から信用される人間になるために、まず、自分を厳しい目で見る。</h2>";        
 }
+else if(flag%30 == 10){
+    document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜現在は過去のルーティーン〜癖、習慣はなかなか変えられない。良い癖付けを幼少から身につけさせることが肝要である。</h2>";        
+}
+else if(flag%30 == 11){
+    document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜慌ただしさの中の静寂〜慌ただしい生活に充実はあるか？日々が日常の繰り返しになっていないか？</h2>";        
+}
+else if(flag%30 == 12){
+    document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜毎日、自分と向き合う〜いま、そして次のミッションを把握する。自分を前進させる効果的な方法である。ミッションから逃げるのは、もってのほかである。</h2>";        
+}
+
+
 
 else{
 document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜じっと考える〜当たり前を疑う、考える時間を持つ、その習慣が周りに流されてしまうことを防ぐ</h2>";                
