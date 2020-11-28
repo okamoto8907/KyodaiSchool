@@ -24,8 +24,18 @@ else if(flag%30 == 4){
 else if(flag%30 == 5){
     document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜ルーツが大事〜ルーツとは祖先や物事の根元・起源である。ルーツをたどる事で、起源がわかると同時に、今の立ち位置を理解する事ができる。</h2>";        
 }
-
-
+else if(flag%30 == 6){
+    document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜人の話をメモする〜人間は忘れる生き物である。チャンスを逃さないよう、メモしよう。</h2>";        
+}
+else if(flag%30 == 7){
+    document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜プライドとは〜高慢や我との違いを正しく理解しているか。</h2>";        
+}
+else if(flag%30 == 8){
+    document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜心配りが必要〜人に対して何よりも必要なものは、気遣い、心配りである。</h2>";        
+}
+else if(flag%30 == 9){
+    document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜まず自分を信じられるか〜人から信用される人間になるために、まず、自分を厳しい目で見る。</h2>";        
+}
 
 else{
 document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜じっと考える〜当たり前を疑う、考える時間を持つ、その習慣が周りに流されてしまうことを防ぐ</h2>";                
