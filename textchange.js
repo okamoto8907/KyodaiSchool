@@ -46,6 +46,9 @@ else if(flag%30 == 12){
     document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜毎日、自分と向き合う〜いま、そして次のミッションを把握する。自分を前進させる効果的な方法である。ミッションから逃げるのは、もってのほかである。</h2>";        
 }
 
+else if(flag%30 == 13){
+    document.getElementById("phrase").innerHTML = "<h2>★今日のフレーズ★〜人生を学ぶ〜生きることを通じて人生を学び、学んだ成果を人生の中で活かさなければならない。</h2>";        
+}
 
 
 else{
